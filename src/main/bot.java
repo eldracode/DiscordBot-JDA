@@ -11,7 +11,7 @@ public class bot {
     public static JDA jda;
     public static void main(String[] args) throws Exception
     {
-        jda = new JDABuilder(AccountType.BOT).setToken("NDgxNzIzNjI3MDQyMTExNDg5.Dl_uSw.nQMMF50LOoH0GQj9dMS-5UKyeg8").buildBlocking();
+        jda = new JDABuilder(AccountType.BOT).setToken("").buildBlocking();
 
         jda.addEventListener(new Reply());
         jda.addEventListener(new online());
